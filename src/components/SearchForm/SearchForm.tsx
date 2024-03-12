@@ -14,7 +14,7 @@ export default function SearchForm() {
                 <option value="open">Open</option>
                 <option value="closed">Closed</option>
             </select>
-            Filter by Color:
+            По цвету:
             <select>
                 <option value="all">All</option>
                 {groups.map(group => group.avatar_color && (
